@@ -25,6 +25,7 @@ header {
     background-color:#96BDA7 ;
     padding: 10px;
     margin: auto;
+    
 } 
 
 #logo {
@@ -85,7 +86,7 @@ li {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 700px;
+    height: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -132,7 +133,7 @@ li {
     color: #ffffff;
     background-color: #F25270;
     border: #F25270;
-    margin-bottom: 25px;
+    margin: 25px;
     width: 445px;
 }
 
