@@ -133,6 +133,7 @@ li {
     background-color: #F25270;
     border: #F25270;
     margin-bottom: 25px;
+    width: 445px;
 }
 
 .shop-button:hover {
@@ -158,7 +159,7 @@ li {
 
 footer {
     background-color:#F25270;
-    padding: 25px;
+    padding: 2px 25px;
     text-align: center;
 }
 
