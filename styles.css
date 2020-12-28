@@ -1,0 +1,75 @@
+/* Universial styles */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    margin: 30px 0;
+    width: 100%;
+    background-color:#96BDA7 ;
+    padding: 10px;
+
+} 
+
+#logo {
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+}
+#logo img {
+    height: 70px;
+    margin-right: 10px;
+}
+
+h1 { 
+    font-family: 'Amatic SC', cursive; 
+    font-size: 60px;
+    align-self: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    margin: 0 20px;
+    list-style: none;
+}
+
+button {
+}
+
+/* Mission */
+
+#mission {
+    background-image: url("./images/abundance-1868573_1920.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, .5);
+    opacity: .5;
+}
+
+#mission h2 {
+    font-family: 'Amatic SC', cursive; 
+    font-weight: bold;
+    font-size: 40px;
+    background-color: #BF95BF;
+    padding: 20px;
+}
+
+
+
+Afbeelding van <a href="https://pixabay.com/nl/users/pexels-2286921/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1868573">Pexels</a> via <a href="https://pixabay.com/nl/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1868573">Pixabay</a>
