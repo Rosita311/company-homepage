@@ -4,17 +4,27 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+
+main {
+    margin: auto;
+    text-align: center; 
+}
+
+h2 {
+    font-family: 'Amatic SC', cursive; 
+    font-size: 50px;
+    font-weight: bold;
+}
+
 /* header */
 
 header {
     display: flex;
     justify-content: space-between;
     height: 80px;
-    margin: 30px 0;
-    width: 100%;
     background-color:#96BDA7 ;
     padding: 10px;
-
+    margin: auto;
 } 
 
 #logo {
@@ -44,8 +54,29 @@ li {
     list-style: none;
 }
 
-button {
+.menu-item {
+    color: #000000;
+    text-decoration: none;
 }
+
+.menu-item:hover{
+    color: #F2AC29;
+}
+
+.header-button {
+    padding: 15px;
+    color: #ffffff;
+    background-color: transparent;
+    border: solid 2px #ffffff;
+    font-size: 18px;
+}
+
+.header-button:hover {
+    color: #F25270;
+    border: solid 2px #F25270;
+    transition: ease-in-out .5s;
+}
+
 
 /* Mission */
 
@@ -58,18 +89,96 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(255, 255, 255, .5);
-    opacity: .5;
+    margin: auto;  
 }
 
-#mission h2 {
+.statement {
+    background-color: #BF95BF;
+    padding: 20px;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.statement h2 {
     font-family: 'Amatic SC', cursive; 
     font-weight: bold;
     font-size: 40px;
-    background-color: #BF95BF;
-    padding: 20px;
+}
+
+/* Highlights section */
+
+#highlights {
+    margin: auto;   
+    padding: 20px 0;
+}
+
+.products-container {
+    display: flex;
+    justify-content: center;
+}
+
+.product img {
+    height: 350px;
+    width: 445px;
+}
+
+.member figcaption, .product figcaption {
+    margin: 10px;
+}
+
+.shop-button {
+    padding: 30px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #F25270;
+    border: #F25270;
+    margin-bottom: 25px;
+}
+
+.shop-button:hover {
+    background-color: #F2AC29;
+    transition: ease-in-out .5s;
+}
+
+#team {
+    background-color: #F2AC29;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+}
+
+.member img {
+    height: 400px;
+    
+}
+
+footer {
+    background-color:#F25270;
+    padding: 25px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-item {
+    margin: 25px 150px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #96BDA7;
+}
+
+footer a:hover {
+    color: #BF95BF;
 }
 
 
 
-Afbeelding van <a href="https://pixabay.com/nl/users/pexels-2286921/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1868573">Pexels</a> via <a href="https://pixabay.com/nl/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1868573">Pixabay</a>

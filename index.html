@@ -14,27 +14,97 @@
         <img src="images/white-plate-5246449_640.png" alt="logo">
         <h1>Rosie's Bakery</h1>
       </div>
-      <nav>
+      <nav> 
         <ul>
-          <li>Mission</li>
-          <li>Highlights</li>
-          <li>Team</li>
-          <li><button><a href="#">Shop online</a></button></li>
+          <li><a class="menu-item" href="#mission">Mission</a></li>
+          <li><a class="menu-item" href="#highlights">Highlights</a></li>
+          <li><a class="menu-item" href="#team">Team</a></li>
+          <li><button class="header-button">Shop online</button></li>
         </ul>
       </nav>
     </header>
     <main>
       <div id="mission">
-        <h2>We bake the most delicious things just for you!</h2>
+        <div class="statement">
+          <h2>We bake the most delicious things just for you!</h2>
+          <p>We bake our cakes and other products with passion and greatest care for birthdays, weddings and other events.</p>
+        </div>
       </div>
       <div id="highlights">
         <h2>Our populair products</h2>
+        <div class="products-container">
+          <div class="product">
+            <figure>
+              <img src="./images/wedding-cake-436675_1920.jpg" alt="wedding cake">
+              <figcaption>(wedding)cakes</figcaption>
+            </figure>
+          </div>
+          <div class="product">
+            <figure>
+              <img src="./images/chocolate-mini-cupcakes-749498_1920.jpg" alt="cupcakes">
+              <figcaption>Cupcakes</figcaption>
+            </figure>
+          </div>
+          <div class="product">
+            <figure>
+              <img src="./images/cookies-5828443_1920.jpg" alt="cookies">
+              <figcaption>Cookies</figcaption>
+            </figure>
+          </div>
+        </div>
+        <button class="shop-button">Shop online</button>
       </div>
       <div id="team">
         <h2>Our Team</h2>
+        <div class="team-container">
+          <div class="member">
+            <figure>
+              <img src="./images/cook-196932_1920.jpg" alt="Rosie">
+              <figcaption>Baker and Owner: Rosie</figcaption>
+            </figure>
+          </div>
+          <div class="member">
+            <figure>
+              <img src="./images/chef-963195_1920.jpg" alt="Joe">
+              <figcaption>Baker: Joe</figcaption>
+            </figure>
+          </div>
+          <div class="member">
+            <figure>
+              <img src="./images/woman-868523_1920.jpg" alt="Jane">
+              <figcaption>Accountant: Jane</figcaption>
+            </figure>
+          </div>
+          <div class="member">
+            <figure>
+              <img src="./images/white-1513923_1920.jpg" alt="Bryan">
+              <figcaption>Delivery: Bryan</figcaption>
+            </figure>
+          </div>
+        </div>
       </div>
     </main>
     <footer>
+      <div class="footer-container">
+        <div class="footer-item">
+          <h2>Contact</h2>
+          <p>Rosie's Bakery</p>
+          <p>Canalstreet 17</p>
+          <p>7743 Brummen</p>
+        </div>
+        <div class="footer-item">
+          <h2>E-mail and phone</h2>
+          <p>info@rosiesbakery.com</p>
+          <p>+310575123456</p>
+        </div>
+        <div class="footer-item">
+          <h2>Service</h2>
+          <p>Frequenly Asked Questions</p>
+          <p>We're Hiring</p>
+          <p>Blog</p>
+        </div>
+      </div>
+      <p>Pictures from <a href="https://pixabay.com/nl/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1868573">Pixabay</a> and project Company Home Page with Flexbox from <a href="https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-making-a-website-responsive/modules/fecp-challenge-project-company-home-page/projects/company-page-with-flexbox">Codecademy</a>.</p></footer>
     </footer>
   </body>
 </html>
