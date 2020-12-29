@@ -185,10 +185,23 @@ footer a:hover {
     color: #BF95BF;
 }
 
-@media only screen and (max-width: 480px), (orientation: portrait) {    
+@media only screen and (max-width: 768px) {   
+    #logo {
+        align-items: center;
+    } 
+
+    #logo img{
+        height: 35px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
     .menu-item {
         display: none;
     }
+
 
     #mission {
         justify-content: baseline;
