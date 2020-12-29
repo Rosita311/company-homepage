@@ -173,7 +173,7 @@ footer {
 
 .footer-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     border: 2px solid greenyellow;
 }
 
@@ -194,23 +194,6 @@ footer a:hover {
 
 /* Responsive layout max width: 768px */
 
-/* @media only screen and (max-width: 1025px) { 
-
-
-    .products-container, .team-container, .footer-container {
-        flex-wrap: wrap; 
-        max-width: 1000px;
-        justify-content: center;
-        
-    }
-
-    .member {
-        margin: 0;
-    }
-} */
-
-/* Responsive layout max width: 768px */
-
 @media only screen and (max-width: 768px) { 
 
 
@@ -226,8 +209,12 @@ footer a:hover {
         font-size: 30px;
     }
 
-    .menu-item {
-        display: none;
+    .menu-item { 
+        margin: 0; 
+    }
+
+    .header-button {
+        padding: 10px;
     }
 
 
@@ -238,6 +225,54 @@ footer a:hover {
 
     .statement {
         width: 100%;
+    }
+
+    #highlights {
+        background-color: #ffffff;
+    }
+
+    .products-container, .team-container, .footer-container {
+        flex-wrap: wrap;
+       
+    }
+    
+}
+
+@media only screen and (max-width: 480px) { 
+
+
+    #logo {
+        align-items: center;
+    } 
+
+    #logo img {
+        height: 35px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .menu-item { 
+        display: none; 
+    }
+
+    .header-button {
+        padding: 10px;
+    }
+
+
+    #mission {
+        justify-content: baseline;
+        align-items: flex-end;
+    }
+
+    .statement {
+        width: 100%;
+    }
+
+    #highlights {
+        background-color: #ffffff;
     }
 
     .products-container, .team-container, .footer-container {
