@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 }
 
 
@@ -111,16 +112,19 @@ li {
 #highlights {
     margin: auto;   
     padding: 20px 0;
+    background-color:  #BF95BF;
 }
 
 .products-container {
     display: flex;
     justify-content: center;
+    position: relative;
+    border: 2px solid peru;
 }
 
-.product img {
-    height: 350px;
-    width: 445px;
+.product img { 
+    height: 300px;
+    width: 360px;
 }
 
 .member figcaption, .product figcaption {
@@ -134,7 +138,7 @@ li {
     background-color: #F25270;
     border: #F25270;
     margin: 25px;
-    width: 445px;
+    width: 360px;
 }
 
 .shop-button:hover {
@@ -154,11 +158,11 @@ li {
 .team-container {
     display: flex;
     justify-content: center;
+    border: 2px solid red;
 }
 
 .member img {
-    height: 400px;
-    
+    width: 200px;  
 }
 
 footer {
@@ -170,10 +174,13 @@ footer {
 .footer-container {
     display: flex;
     justify-content: center;
+    border: 2px solid greenyellow;
 }
 
 .footer-item {
-    margin: 25px 150px;
+    
+    border: 2px solid blueviolet;
+    width: 210px;
 }
 
 footer a {
@@ -185,7 +192,27 @@ footer a:hover {
     color: #BF95BF;
 }
 
+/* Responsive layout max width: 768px */
+
+/* @media only screen and (max-width: 1025px) { 
+
+
+    .products-container, .team-container, .footer-container {
+        flex-wrap: wrap; 
+        max-width: 1000px;
+        justify-content: center;
+        
+    }
+
+    .member {
+        margin: 0;
+    }
+} */
+
+/* Responsive layout max width: 768px */
+
 @media only screen and (max-width: 768px) { 
+
 
     #logo {
         align-items: center;
