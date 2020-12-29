@@ -23,7 +23,7 @@ header {
     display: flex;
     justify-content: space-between;
     height: 80px;
-    background-color:#96BDA7 ;
+    background-color:#BF95BF ;
     padding: 10px;
     margin: auto;
     
@@ -62,7 +62,7 @@ li {
 }
 
 .menu-item:hover{
-    color: #F2AC29;
+    color:#ffffff;
 }
 
 .header-button {
@@ -112,14 +112,13 @@ li {
 #highlights {
     margin: auto;   
     padding: 20px 0;
-    background-color:  #BF95BF;
+    
 }
 
 .products-container {
     display: flex;
     justify-content: center;
     position: relative;
-    border: 2px solid peru;
 }
 
 .product img { 
@@ -142,7 +141,7 @@ li {
 }
 
 .shop-button:hover {
-    background-color: #F2AC29;
+    background-color: #BF95BF;
     transition: ease-in-out .5s;
 }
 
@@ -150,7 +149,7 @@ li {
 /* Team section */
 
 #team {
-    background-color: #F2AC29;
+    background-color:  #BF95BF;
     margin: auto;
     padding: 20px 0;
 }
@@ -158,7 +157,6 @@ li {
 .team-container {
     display: flex;
     justify-content: center;
-    border: 2px solid red;
 }
 
 .member img {
@@ -174,18 +172,15 @@ footer {
 .footer-container {
     display: flex;
     justify-content: space-around;
-    border: 2px solid greenyellow;
 }
 
 .footer-item {
-    
-    border: 2px solid blueviolet;
     width: 210px;
 }
 
 footer a {
     text-decoration: none;
-    color: #96BDA7;
+    color: #ffffff;
 }
 
 footer a:hover {
@@ -195,7 +190,6 @@ footer a:hover {
 /* Responsive layout max width: 768px */
 
 @media only screen and (max-width: 768px) { 
-
 
     #logo {
         align-items: center;
@@ -241,44 +235,29 @@ footer a:hover {
 @media only screen and (max-width: 480px) { 
 
 
-    #logo {
-        align-items: center;
-    } 
-
-    #logo img {
-        height: 35px;
-    }
-
-    h1 {
-        font-size: 30px;
-    }
-
     .menu-item { 
         display: none; 
     }
 
     .header-button {
-        padding: 10px;
-    }
-
-
-    #mission {
-        justify-content: baseline;
-        align-items: flex-end;
+        display: none;
     }
 
     .statement {
         width: 100%;
     }
 
-    #highlights {
-        background-color: #ffffff;
-    }
-
     .products-container, .team-container, .footer-container {
         flex-wrap: wrap;
-       
     }
     
+    .product img { 
+        width: 300px;
+        height: 200px;
+    }
+
+    .shop-button {
+        width: 300px;
+    }
 }
 
