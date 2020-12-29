@@ -142,6 +142,9 @@ li {
     transition: ease-in-out .5s;
 }
 
+
+/* Team section */
+
 #team {
     background-color: #F2AC29;
     margin: auto;
@@ -182,5 +185,24 @@ footer a:hover {
     color: #BF95BF;
 }
 
+@media only screen and (max-width:368px) {  
+    .menu-item {
+        display: none;
+    }
 
+    #mission {
+        justify-content: baseline;
+        align-items: flex-end;
+    }
+
+    .statement {
+        width: 100%;
+        flex-shrink: 1;
+    }
+
+    .products-container, .team-container, .footer-container {
+        flex-wrap: wrap;
+       
+    }
+}
 
