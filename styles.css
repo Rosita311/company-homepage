@@ -261,3 +261,17 @@ footer a:hover {
     }
 }
 
+@media only screen and (max-width: 381px) { 
+
+    #logo {
+        margin: 0;
+    }
+
+    #logo img {
+        height: 35px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+}
