@@ -185,7 +185,7 @@ footer a:hover {
     color: #BF95BF;
 }
 
-@media only screen and (max-width:368px) {  
+@media only screen and (max-width: 480px), (orientation: portrait) {    
     .menu-item {
         display: none;
     }
@@ -197,7 +197,6 @@ footer a:hover {
 
     .statement {
         width: 100%;
-        flex-shrink: 1;
     }
 
     .products-container, .team-container, .footer-container {
