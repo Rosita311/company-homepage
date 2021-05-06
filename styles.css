@@ -23,11 +23,27 @@ header {
     display: flex;
     justify-content: space-between;
     height: 80px;
-    background-color:#BF95BF ;
+    background-color: transparent;
     padding: 10px;
-    margin: auto;
-    
+    margin: auto;  
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    transition: ease-in-out .5s;
 } 
+
+header.scroll {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background-color: #F2AC29;
+    padding: 10px;
+    margin: auto;  
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    transition: ease-in-out .5s;
+}
 
 #logo {
     display: flex;
@@ -43,6 +59,16 @@ h1 {
     font-family: 'Amatic SC', cursive; 
     font-size: 60px;
     align-self: center;
+    color: #ffffff;
+    transition: ease-in-out .5s;
+}
+
+h1.scroll { 
+    font-family: 'Amatic SC', cursive; 
+    font-size: 60px;
+    align-self: center;
+    color: #000000;
+    transition: ease-in-out .5s;
 }
 
 nav ul {
@@ -57,12 +83,23 @@ li {
 }
 
 .menu-item {
+    color: #ffffff;
+    text-decoration: none;
+    transition: ease-in-out .5s;
+}
+
+.menu-item.scroll {
     color: #000000;
     text-decoration: none;
+    transition: ease-in-out;
 }
 
 .menu-item:hover{
-    color:#ffffff;
+    color:#F25270;
+}
+
+.menu-item:hover.scroll{
+    color:#F25270;
 }
 
 .header-button {
@@ -71,6 +108,16 @@ li {
     background-color: transparent;
     border: solid 2px #ffffff;
     font-size: 18px;
+    transition: ease-in-out .5s;
+}
+
+.header-button.scroll {
+    padding: 15px;
+    color: #000000;
+    background-color: transparent;
+    border: solid 2px #000000;
+    font-size: 18px;
+    transition: ease-in-out .5s;
 }
 
 .header-button:hover {
@@ -79,7 +126,25 @@ li {
     transition: ease-in-out .5s;
 }
 
+.header-button a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: ease-in-out .5s;
+}
 
+.header-button a.scroll {
+    color: #000000;
+    text-decoration: none;
+    transition: ease-in-out .5s;
+}
+
+
+.header-button a:hover {
+    color: #F25270;
+    transition: ease-in-out .5s;
+}
+
+ 
 /* Mission */
 
 #mission {
@@ -87,11 +152,12 @@ li {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 1000px;
+    height: 1200px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;  
+    margin: -180px 0 auto;
+
 }
 
 .statement {
