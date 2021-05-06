@@ -126,6 +126,12 @@ li {
     transition: ease-in-out .5s;
 }
 
+.header-button:hover.scroll{
+    color:#ffffff;
+    border: solid 2px #ffffff;
+    transition: ease-in-out .5s;
+}
+
 .header-button a {
     color: #ffffff;
     text-decoration: none;
@@ -141,6 +147,11 @@ li {
 
 .header-button a:hover {
     color: #F25270;
+    transition: ease-in-out .5s;
+}
+
+.header-button a:hover.scroll {
+    color: #ffffff;
     transition: ease-in-out .5s;
 }
 
