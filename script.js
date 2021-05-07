@@ -1,3 +1,5 @@
+console.log('hi')
+
 const header = document.querySelector('.header');
 const title = document.querySelector('h1');
 const menu = document.querySelector('.menu-item');
@@ -6,7 +8,7 @@ const buttonLink = document.querySelector('.header-button a');
 
 window.onscroll = function() {
     let top = window.scrollY;
-    console.log(top);
+    // console.log(top);
     if(top >= 80) {
         header.classList.add('scroll');
         title.classList.add('scroll');
