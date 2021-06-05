@@ -292,6 +292,9 @@ footer a:hover {
         padding: 10px;
     }
 
+    .header-button.scroll {
+        padding: 10px;
+    }
 
     #mission {
         justify-content: baseline;
