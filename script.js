@@ -1,6 +1,6 @@
 const header = document.querySelector('.header');
 const title = document.querySelector('h1');
-const menu = document.querySelectorAll('.menu-item');
+const menuItems = document.querySelectorAll('.menu-item');
 const button = document.querySelector('.header-button');
 const buttonLink = document.querySelector('.header-button a');
 
@@ -12,7 +12,7 @@ window.onscroll = function() {
         title.classList.add('scroll');
         button.classList.add('scroll');
         buttonLink.classList.add('scroll');
-        menu.forEach(function(menu) {
+        menuItems.forEach(function(menu) {
             menu.classList.add('scroll');
         })
     } else {
@@ -20,7 +20,7 @@ window.onscroll = function() {
         title.classList.remove('scroll');
         button.classList.remove('scroll');
         buttonLink.classList.remove('scroll');
-        menu.forEach(function(menu) {
+        menuItems.forEach(function(menu) {
             menu.classList.remove('scroll');
         })
     }
